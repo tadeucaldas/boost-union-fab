@@ -1,0 +1,24 @@
+{
+  "name": "boost-union-fab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass scss/theme.scss css/theme.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tadeucaldas/boost-union-fab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tadeucaldas/boost-union-fab/issues"
+  },
+  "homepage": "https://github.com/tadeucaldas/boost-union-fab#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.83.4"
+  }
+}
