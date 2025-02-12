@@ -61,6 +61,25 @@ body.theme {
     }
 }
 
+#page {
+    @media (min-width: 426px) {
+        #theme-block-region-outside-left {
+            min-width: 250px;
+        }
+        #topofscroll {
+            max-width: calc(100% - 270px);
+        }
+    }
+}
+
+.drawer-left .drawerheader {
+    background: #001e51;
+    .btn {
+        color: #fff;
+    }
+}
+
+
 .path-course-view {
     .main-inner-wrapper {
         display: flex;
