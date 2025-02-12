@@ -55,6 +55,22 @@ body.theme {
   border-radius: 0 !important;
 }
 
+@media (min-width: 426px) {
+  #page #theme-block-region-outside-left {
+    min-width: 250px;
+  }
+  #page #topofscroll {
+    max-width: calc(100% - 270px);
+  }
+}
+
+.drawer-left .drawerheader {
+  background: #001e51;
+}
+.drawer-left .drawerheader .btn {
+  color: #fff;
+}
+
 .path-course-view .main-inner-wrapper {
   display: flex;
 }
