@@ -56,10 +56,10 @@ body.theme {
 }
 
 @media (min-width: 426px) {
-  #page #theme-block-region-outside-left {
+  .path-course-view #page #theme-block-region-outside-left {
     min-width: 250px;
   }
-  #page #topofscroll {
+  .path-course-view #page #topofscroll {
     max-width: calc(100% - 270px);
   }
 }
