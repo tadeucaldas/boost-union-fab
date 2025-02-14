@@ -34,6 +34,13 @@ body.theme {
   background-color: #1d6ee7;
   color: white;
 }
+.card.block_html:has(.userpicture) .btn-primary {
+  background-color: #175bc1;
+  border-color: #175bc1;
+}
+.card.block_html:has(.userpicture) .btn-primary:hover {
+  background-color: #144fa7;
+}
 .card.block_html:has(.userpicture) a {
   color: white;
 }

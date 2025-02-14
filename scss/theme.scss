@@ -33,6 +33,13 @@ body.theme {
     &.block_html:has(.userpicture) {
         background-color: #1d6ee7;
         color: white;
+        .btn-primary {
+            background-color: #175bc1;
+            border-color: #175bc1;
+            &:hover {
+                background-color: #144fa7;
+            }
+        }
         a {
             color: white;
         }
