@@ -33,6 +33,9 @@ body.theme {
 .card.block_html:has(.userpicture) a {
   color: white;
 }
+.card.block_html:has(.userpicture) .dropdown-menu a {
+  color: #1d2125;
+}
 .card.block_html:has(.userpicture) .userpicture {
   margin-top: -75px;
   border: 4px solid #fff;
