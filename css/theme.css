@@ -17,8 +17,8 @@ body.theme {
   border-color: #0f6cbf;
 }
 
-#tiles-overall-progress-outer {
-  display: none;
+.course-content #tiles-overall-progress-outer {
+  display: none !important;
 }
 
 .card {
