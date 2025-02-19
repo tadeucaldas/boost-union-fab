@@ -287,3 +287,40 @@ div#courseheaderimage {
     color: #234e9f;
     font-size: 1.5em;
 }
+
+.navbar.navbar-dark.bg-dark .nav-link:hover i.icon {
+    color: #001e51 !important;
+}
+
+
+@media (min-width: 768px) {
+    body#page-mod-hvp-view #page.drawers .main-inner {
+        max-width: 1120px !important;
+    }
+}
+.format-tiles .course-content li.activity.label div.titulo::after {
+    content: none;
+}
+.format-tiles .course-content li.activity.label div.titulo {
+    position: relative;
+    background: #001e51;
+    padding: 8px 60px !important;
+    color: #fff;
+    border: 0px !important;
+    overflow: visible;
+    margin: 16px 0 16px 15px;
+    border-radius:  0 0 30px;
+    i {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #001e51;
+        background: #fff !important;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        left: -10px;
+        color: #0044b9 !important;
+    }
+}

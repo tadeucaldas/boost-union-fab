@@ -1,0 +1,24 @@
+CEAG
+- CEAG 1/2024|/course/view.php?id=4
+- CEAG 1/2025|/course/view.php?id=29
+
+CAA
+- CAA 2/2024|/course/view.php?id=18
+- CAA 1/2025|/course/view.php?id=26
+
+CAS
+- CAS 2/2024|/course/view.php?id=14
+- CAS 1/2025|/course/view.php?id=28
+
+CEG
+- CEG 2/2024|/course/view.php?id=8
+- CEG 1/2025|/course/view.php?id=24
+
+CEQESA
+- CEQESA 2024|/course/view.php?id=12
+
+COMISSÕES FISCALIZADORAS|/course/view.php?id=21
+
+CPD-PósG|/course/view.php?id=16
+
+SIMPEDEPF|/course/view.php?id=22
