@@ -307,23 +307,23 @@ div#courseheaderimage {
 }
 
 .menu-ceag a::before {
-  background-image: url("./pluginfile.php/1/theme_boost_union/additionalresources/0/SO.svg");
+  background-image: url("@/pluginfile.php/1/theme_boost_union/additionalresources/0/SO.svg");
 }
 
 .menu-caa a::before {
-  background-image: url("./pluginfile.php/1/theme_boost_union/additionalresources/0/1s.svg");
+  background-image: url("@/pluginfile.php/1/theme_boost_union/additionalresources/0/1s.svg");
 }
 
 .menu-cas a::before {
-  background-image: url("./pluginfile.php/1/theme_boost_union/additionalresources/0/2s.svg");
+  background-image: url("@/pluginfile.php/1/theme_boost_union/additionalresources/0/2s.svg");
 }
 
 .menu-ceg a::before {
-  background-image: url("./pluginfile.php/1/theme_boost_union/additionalresources/0/3s.svg");
+  background-image: url("@/pluginfile.php/1/theme_boost_union/additionalresources/0/3s.svg");
 }
 
 .menu-ceqesa a::before {
-  background-image: url("./pluginfile.php/1/theme_boost_union/additionalresources/0/qesa.svg");
+  background-image: url("@/pluginfile.php/1/theme_boost_union/additionalresources/0/qesa.svg");
 }
 
 /*# sourceMappingURL=theme.css.map */
