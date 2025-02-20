@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+$path: "https://eearvirtual.educaer.fab.mil.br";
+
 body.theme {
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
@@ -343,21 +345,21 @@ div#courseheaderimage {
 }
 
 .menu-ceag a::before {
-    background-image: url('/pluginfile.php/1/theme_boost_union/additionalresources/0/SO.svg');
+    background-image: url('#{$path}/pluginfile.php/1/theme_boost_union/additionalresources/0/SO.svg');
 }
 
 .menu-caa a::before {
-    background-image: url('/pluginfile.php/1/theme_boost_union/additionalresources/0/1s.svg');
+    background-image: url('#{$path}/pluginfile.php/1/theme_boost_union/additionalresources/0/1s.svg');
 }
 
 .menu-cas a::before {
-    background-image: url('/pluginfile.php/1/theme_boost_union/additionalresources/0/2s.svg');
+    background-image: url('#{$path}/pluginfile.php/1/theme_boost_union/additionalresources/0/2s.svg');
 }
 
 .menu-ceg a::before {
-    background-image: url('/pluginfile.php/1/theme_boost_union/additionalresources/0/3s.svg');
+    background-image: url('#{$path}/pluginfile.php/1/theme_boost_union/additionalresources/0/3s.svg');
 }
 
 .menu-ceqesa a::before {
-    background-image: url('/pluginfile.php/1/theme_boost_union/additionalresources/0/qesa.svg');
+    background-image: url('#{$path}/pluginfile.php/1/theme_boost_union/additionalresources/0/qesa.svg');
 }
