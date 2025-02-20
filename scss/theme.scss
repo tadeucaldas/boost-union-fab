@@ -324,3 +324,40 @@ div#courseheaderimage {
         color: #0044b9 !important;
     }
 }
+
+
+.menu-depf a::before{
+    content: ' ';
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+      filter: invert(100%) grayscale(1);
+    -webkit-filter:  invert(100%) grayscale(1);
+}
+.menu-depf a:hover::before,  .menu-depf.show a::before{
+     filter: invert(0%) grayscale(0)
+}
+
+.menu-ceag a::before {
+    background-image: url('/pluginfile.php/1/theme_boost_union/additionalresources/0/SO.svg');
+}
+
+.menu-caa a::before {
+    background-image: url('/pluginfile.php/1/theme_boost_union/additionalresources/0/1s.svg');
+}
+
+.menu-cas a::before {
+    background-image: url('/pluginfile.php/1/theme_boost_union/additionalresources/0/2s.svg');
+}
+
+.menu-ceg a::before {
+    background-image: url('/pluginfile.php/1/theme_boost_union/additionalresources/0/3s.svg');
+}
+
+.menu-ceqesa a::before {
+    background-image: url('/pluginfile.php/1/theme_boost_union/additionalresources/0/qesa.svg');
+}
