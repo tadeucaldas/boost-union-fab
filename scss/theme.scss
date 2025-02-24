@@ -124,6 +124,9 @@ body:not(:has(a[href*='switchrole.php'])) .secondary-navigation {
     .path-course-view .main-inner-wrapper {
         flex-direction: column-reverse;
     }
+    #themeboostunionadvtiles {
+        padding: 0 15px !important;
+    }
 }
 
 @media (min-width: 320px) {
@@ -362,8 +365,4 @@ div#courseheaderimage {
 
 .menu-ceqesa a::before {
     background-image: url('#{$path}/pluginfile.php/1/theme_boost_union/additionalresources/0/qesa.svg');
-}
-
-.themeboostunionadvtiles {
-    overflow: hidden;
 }
