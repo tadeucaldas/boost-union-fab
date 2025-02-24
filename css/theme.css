@@ -326,4 +326,8 @@ div#courseheaderimage {
   background-image: url("https://eearvirtual.educaer.fab.mil.br/pluginfile.php/1/theme_boost_union/additionalresources/0/qesa.svg");
 }
 
+.themeboostunionadvtiles {
+  overflow: hidden;
+}
+
 /*# sourceMappingURL=theme.css.map */
