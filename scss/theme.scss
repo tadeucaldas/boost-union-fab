@@ -313,11 +313,11 @@ div#courseheaderimage {
     color: #fff;
     border: 0px !important;
     overflow: visible;
-    margin: 16px 0 16px 15px;
+    margin: 16px 0;
     border-radius:  0 0 30px;
     &:has(i.fa){
         padding-left: 60px !important;
-        margin-left: 0;
+        margin-left: 15;
     }
     i {
         position: absolute;
