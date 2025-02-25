@@ -269,9 +269,6 @@ div#courseheaderimage {
     font-size: 1.2em;
     font-style: italic;
     background: #0033a010;
-    &:has(i.fa){
-        padding-left: 20px !important;
-    }
 }
 
 .format-tiles .course-content li.activity.label div.titulo::after {
@@ -312,12 +309,15 @@ div#courseheaderimage {
 .format-tiles .course-content li.activity.label div.titulo {
     position: relative;
     background: #001e51;
-    padding: 8px 60px !important;
+    padding: 8px !important;
     color: #fff;
     border: 0px !important;
     overflow: visible;
     margin: 16px 0 16px 15px;
     border-radius:  0 0 30px;
+    &:has(i.fa){
+        padding-left: 60px !important;
+    }
     i {
         position: absolute;
         display: flex;

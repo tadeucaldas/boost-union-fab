@@ -232,9 +232,6 @@ div#courseheaderimage {
   font-style: italic;
   background: rgba(0, 51, 160, 0.062745098);
 }
-.format-tiles .course-content li.activity.label div.titulo:has(i.fa) {
-  padding-left: 20px !important;
-}
 
 .format-tiles .course-content li.activity.label div.titulo::after {
   content: "\f5b0";
@@ -274,12 +271,15 @@ div#courseheaderimage {
 .format-tiles .course-content li.activity.label div.titulo {
   position: relative;
   background: #001e51;
-  padding: 8px 60px !important;
+  padding: 8px !important;
   color: #fff;
   border: 0px !important;
   overflow: visible;
   margin: 16px 0 16px 15px;
   border-radius: 0 0 30px;
+}
+.format-tiles .course-content li.activity.label div.titulo:has(i.fa) {
+  padding-left: 60px !important;
 }
 .format-tiles .course-content li.activity.label div.titulo i {
   position: absolute;
