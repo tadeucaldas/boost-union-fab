@@ -280,7 +280,7 @@ div#courseheaderimage {
 }
 .format-tiles .course-content li.activity.label div.titulo:has(i.fa) {
   padding-left: 60px !important;
-  margin-left: 15;
+  margin-left: 15px;
 }
 .format-tiles .course-content li.activity.label div.titulo i {
   position: absolute;
