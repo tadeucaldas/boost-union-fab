@@ -309,7 +309,7 @@ div#courseheaderimage {
 .format-tiles .course-content li.activity.label div.titulo {
     position: relative;
     background: #001e51;
-    padding: 8px !important;
+    padding: 8px 16px !important;
     color: #fff;
     border: 0px !important;
     overflow: visible;
@@ -317,6 +317,7 @@ div#courseheaderimage {
     border-radius:  0 0 30px;
     &:has(i.fa){
         padding-left: 60px !important;
+        margin-left: 0;
     }
     i {
         position: absolute;
